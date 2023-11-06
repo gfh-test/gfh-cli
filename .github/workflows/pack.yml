@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Pack Oclif CLI
-        run: npx oclif pack
+        run: npx oclif pack tarballs
 
       - name: Debug
         run: ls -la ./dist
