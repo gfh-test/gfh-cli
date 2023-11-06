@@ -61,4 +61,4 @@ jobs:
           file: "./dist/*.gz;./dist/*.xz"
           branches: "master"
           verbose: true
-          default_release_name: ${{ steps.packageVersion.outputs.prop }}
+          release_id: ${{ steps.create_release.outputs.id }}
