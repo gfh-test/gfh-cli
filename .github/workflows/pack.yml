@@ -46,6 +46,7 @@ jobs:
           path: "package.json"
           prop_path: "version"
       - name: Create Github Release
+        id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.SVC_CLI_BOT_GITHUB_TOKEN }}
@@ -61,4 +62,4 @@ jobs:
           branches: "master"
           verbose: true
           prerelease: true
-          default_release_name: "Test release name for master branch"
+          default_release_name: ${{ steps.packageVersion.outputs.prop }}
