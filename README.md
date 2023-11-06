@@ -18,7 +18,7 @@ $ npm install -g gfh
 $ gfh COMMAND
 running command...
 $ gfh (--version)
-gfh/0.0.2 darwin-arm64 node-v20.8.0
+gfh/0.0.2 linux-x64 node-v20.9.0
 $ gfh --help [COMMAND]
 USAGE
   $ gfh COMMAND
