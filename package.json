@@ -5,6 +5,7 @@
   },
   "dependencies": {
     "@oclif/core": "^3",
+    "@oclif/dev-cli": "^1.26.10",
     "@oclif/plugin-help": "^5",
     "@oclif/plugin-plugins": "^4"
   },
