@@ -18,7 +18,7 @@ $ npm install -g gfh
 $ gfh COMMAND
 running command...
 $ gfh (--version)
-gfh/0.0.5 linux-x64 node-v20.9.0
+gfh/0.0.6 linux-x64 node-v20.9.0
 $ gfh --help [COMMAND]
 USAGE
   $ gfh COMMAND
@@ -62,7 +62,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [src/commands/hello/index.ts](https://github.com/gfh/gfh/blob/v0.0.5/src/commands/hello/index.ts)_
+_See code: [src/commands/hello/index.ts](https://github.com/gfh/gfh/blob/v0.0.6/src/commands/hello/index.ts)_
 
 ## `gfh hello world`
 
@@ -80,7 +80,7 @@ EXAMPLES
   hello world! (./src/commands/hello/world.ts)
 ```
 
-_See code: [src/commands/hello/world.ts](https://github.com/gfh/gfh/blob/v0.0.5/src/commands/hello/world.ts)_
+_See code: [src/commands/hello/world.ts](https://github.com/gfh/gfh/blob/v0.0.6/src/commands/hello/world.ts)_
 
 ## `gfh help [COMMANDS]`
 
