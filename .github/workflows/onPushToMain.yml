@@ -36,7 +36,8 @@ jobs:
         run: npm install
       - name: Pack Oclif CLI
         # run: npx oclif pack tarballs --targets darwin-arm64 --no-xz
-        run: npx oclif pack tarballs --parallel
+        # run: npx oclif pack tarballs --parallel
+        run: npx oclif pack deb
 
       - name: Debug
         run: ls -la ./dist
